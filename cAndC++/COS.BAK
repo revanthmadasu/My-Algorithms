@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+ float cos(float A);
+ float T,X;
+ printf("\nEnter the angle:");
+ scanf("%f",&T);
+ printf("cos function of %f is %f",T,cos(T));
+ return 0;
+}
+float cos(float A)
+{
+ printf("\nArey howlana kodaka cos kavali ante poy calci lo chusko deniki kuda program enduku ra chethena kodaka");
+ return A;
+}
